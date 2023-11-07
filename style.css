@@ -1,0 +1,81 @@
+body {
+    background-color: #829eec;
+    animation-name: example;
+    animation-duration: 4s;
+    animation: bgc 5s linear 2s infinite alternate ;
+}
+
+@keyframes bgc {
+    0%   {background-color: #829eec;}
+    25%  {background-color: #7091ec;}
+    50%  {background-color: #557eed;}
+    70%  {background-color: #4673ec;}
+    100% {background-color: #a1b5ef;}
+  }
+  
+
+input{
+    width: 500px;
+    height: 133px;
+    border: 3px solid black;
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(51, 49, 49);
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    color: yellow;
+}
+
+#btn{
+    width: 600px;
+    height: 70px;
+    border: 3px solid rgb(173, 8, 8);
+    background-color: rgb(188, 2, 2);
+    color: white;
+    transition: .5s;
+    font-size: 20px;
+    margin-left: 30%;
+}
+#btn:hover{
+    width: 600px;
+    height: 70px;
+    border: 3px solid red;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+.submit{
+    width: 300px;
+    height: 133px;
+    border: 3px solid rgb(44, 173, 8);
+    background-color: green;
+    color: white;
+    transition: .5s;
+    font-size: 40px;
+}
+
+.submit:hover{
+    width: 300px;
+    height: 133px;
+    border: 3px solid rgb(44, 173, 8);
+    background-color: white;
+    color: green;
+    font-size: 40px;
+}
+
+.all{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
